@@ -1,0 +1,48 @@
+html,
+body,
+ul,
+li,
+ol,
+dl,
+dd,
+dt,
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+form,
+fieldset,
+legend,
+img {
+	margin: 0;
+	padding: 0;
+}
+
+.fl {
+	float: left;
+}
+
+.fr {
+	float: right;
+}
+
+select,
+input,
+textarea {
+	font-size: 12px;
+	margin: 0;
+}
+
+body {
+	font: "微软雅黑", "黑体";
+	font-size: 12px;
+	background: #212121;
+}
+
+a {
+	font-size: 12px;
+	text-decoration: none;
+}
