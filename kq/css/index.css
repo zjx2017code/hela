@@ -80,10 +80,19 @@
 	margin-top: 15px;
 }
 .photos{
-	width: 1200px;
+	width: 100%;
 	height: 420px;
-	text-align: center;
+	
+}
+.photos>ul{
+	width: 1200px;
+	
+	height: 420px;
+	position: absolute;
+	right: 360px;
 }
 .photos>ul>li{
-	list-style: none;
+	float: left;
+	padding-left: 10px;
+	padding-top: 5px;
 }
