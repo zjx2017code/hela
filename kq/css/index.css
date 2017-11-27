@@ -63,36 +63,205 @@
 	margin-bottom: 15px;
 }
 
+.content{
+	position: relative;
+}
+
 .content>a>img {
 	width: 100%;
 	height: 414px;
 }
 
-.zpzs{
+.zpzs {
 	margin: 0;
 	padding: 0;
 	border: 0;
 	height: 600px;
 	text-align: center;
 }
-.zpzs>a>img{
+
+.zpzs>a>img {
 	margin-bottom: 15px;
 	margin-top: 15px;
 }
-.photos{
+
+.photos {
 	width: 100%;
 	height: 420px;
-	
 }
-.photos>ul{
+
+.photos>ul {
 	width: 1200px;
-	
 	height: 420px;
 	position: absolute;
 	right: 360px;
 }
-.photos>ul>li{
+
+.photos>ul>li {
 	float: left;
 	padding-left: 10px;
 	padding-top: 5px;
+}
+
+.photos>ul>li>a {
+	display: block;
+	width: 230px;
+	height: 349px;
+}
+
+.photos>ul>li>a>img {
+	display: none;
+}
+
+.photos>ul>li:hover>a>img {
+	display: block;
+}
+
+.photos>ul>li:hover>a>span {
+	background-color: red
+}
+
+.ykzsxf {
+	height: 630px;
+	width: 100%;
+	text-align: center;
+}
+
+.ykzsxf>a>img {
+	margin-bottom: 15px;
+	margin-top: 15px;
+}
+
+.photos>ul>li>a>span {
+	display: block;
+	font-size: 15px;
+	line-height: 45px;
+	color: #fff;
+	background-color: #3B3B3B;
+	height: 45px;
+	width: 230px;
+	text-align: center;
+	font-weight: bold;
+	position: absolute;
+	top: 354px;
+}
+
+.khpj {
+	height: 450px;
+	text-align: center;
+}
+
+.khpj>a>img {
+	margin-bottom: 15px;
+	margin-top: 15px;
+}
+
+.khpj>ul>li>a {
+	display: block;
+	background-color: #f0f0f0;
+	width: 290px;
+	height: 100px;
+}
+
+.khpj>ul>li>a>p {
+	width: 172px;
+	margin: 20px 10px 0 0;
+	color: #666666;
+	text-align: left;
+	line-height: 22px;
+}
+
+.khpj>ul>li:hover>a,
+.khpj>ul>li:hover>a>p {
+	background-color: red;
+	color: white;
+}
+
+.khpj>ul{
+	display: inline-block;
+	width: 1200px;
+	height: 248px;
+	text-align: center;
+}
+
+.khpj>ul>li{
+	float: left;
+	margin-bottom: 24px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.hldt{
+	width: 100%;
+	height: 168px;
+	background-image: url(../img/hldt.jpg);
+	background-repeat: no-repeat;
+	margin-left: 10px;
+}
+
+.text{
+	width: 100%;
+	height: 660px;
+	padding-top: 20px;
+}
+
+.text>ul{
+	width: 1200px;
+	height: 680px;
+	margin-left: 360px;
+}
+
+.text>ul>li{
+	width: 565px;
+	height: 146px;
+	float: left;
+	margin: 7px 0;
+	padding-right: 30px;
+}
+
+.text>ul>li>a{
+	display:block; 
+	font-size:18px; 
+	font-weight:bold; 
+	color:#fff; 
+	width: 390px;
+	line-height:35px;
+}
+
+.text>ul>li>.data{
+	width: 390px;
+	height: 22px;
+	color: #cdcdcd;
+	font-family: arial;
+	line-height: 22px;
+}
+
+.text>ul>li>.text-content{
+	width: 390px;
+	height: 75px;
+	color: #676767;
+	line-height: 25px;
+}
+
+.tail{
+	background-image: url(http://www.jyhlyx.com/images/ying_r25_c4.jpg);
+	height: 142px;
+}
+
+
+.tail>img{
+	margin-left: 360px;
+}
+
+.bottom{
+	width: 100%;
+	height: 90px;
+	background-image: url(http://www.jyhlyx.com/images/ying_r26_c4.jpg);
+}
+
+.bottom>p{
+	color: #CBCBCB;
+    font-size: 14px;
+    line-height: 30px;
+    text-align: center;
 }
