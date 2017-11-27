@@ -56,3 +56,32 @@ ul,li{
 	content: " ",;
 	display: table;
 }
+.heraworks a:visited,
+.heraworks a:link{
+    text-decoration: none;
+    font-size: 12px;
+    color: #666666;
+}
+
+.tail{
+	background-image: url(http://www.jyhlyx.com/images/ying_r25_c4.jpg);
+	height: 142px;
+}
+
+
+.tail>img{
+	margin-left: 360px;
+}
+
+.bottom{
+	width: 100%;
+	height: 90px;
+	background-image: url(http://www.jyhlyx.com/images/ying_r26_c4.jpg);
+}
+
+.bottom>p{
+	color: #CBCBCB;
+    font-size: 14px;
+    line-height: 30px;
+    text-align: center;
+}

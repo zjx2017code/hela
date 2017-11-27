@@ -1,0 +1,88 @@
+.heraworks{
+	background-color: white;
+	float:left;
+	width: 100%;
+}
+.blank{
+	height: 10px;
+}
+.place {
+	height: 36px;
+	width: 1200px;
+    background-color: #fff;
+    border: 1px solid #d5d5d5;
+    margin: 2px auto;
+    border-radius: 5px 5px 5px 5px;
+}
+.place2{
+	padding: 9px ;
+}
+
+/*第二部分*/
+.dashed{
+    margin: 15px 8px 26px 8px;
+    border-bottom: 1px dashed #d5d5d5;
+}
+.picture{
+	height: 1490px;
+	width: 1198px;
+	border: 1px solid #d5d5d5;
+	margin: 15px auto;
+	border-radius: 5px 5px 5px 5px;
+}
+
+.picture-3{
+	height: 550px;
+}
+
+.picture>.zuopinwidth{
+	float: left;
+	width: 284px;
+	height: 470px;
+	margin-left: 15px;
+}
+
+.zuopinwidth img{
+	width: 269px;
+	height: 430px;
+}
+
+.zuopinwidth p{
+	width:269px;
+	text-align: center;
+}
+.zuopinwidth p:hover{
+	color: #FF8B49;
+    text-decoration: underline;	
+}
+
+.table-bot{
+	height: 27px;
+	width: 1172px;
+	background-color: #f9f9f9;
+	border: 1px solid #cccccc;
+	float: left;
+	overflow: hidden;
+	text-align: right;
+	line-height: 25px;
+	margin: 0 8px 0 8px;
+	padding-right: 8px;
+}
+
+.apage{
+    border: 1px solid #d4e3e9;
+    padding: 0 3px;
+    margin-right: 5px;
+}
+
+.border-last{
+	width: 1199px;
+	height: 30px;
+	border: 1px solid #CCCCCC;
+	margin: -16px auto 0;
+	border-radius: 5px 5px 5px 5px;
+}
+.black-bot{
+	height: 13px;
+	background-image: url(http://www.jyhlyx.com/templates/qiye/images/right_bot_img.gifhttp://www.jyhlyx.com/templates/qiye/images/right_bot_img.gif);
+}
