@@ -1,3 +1,5 @@
+/*清除内外边距*/
+
 html,
 body,
 ul,
@@ -21,6 +23,9 @@ img {
 	padding: 0;
 }
 
+
+/*浮动*/
+
 .fl {
 	float: left;
 }
@@ -29,6 +34,9 @@ img {
 	float: right;
 }
 
+
+/*输入文本字号*/
+
 select,
 input,
 textarea {
@@ -36,52 +44,140 @@ textarea {
 	margin: 0;
 }
 
+
+/*全局字体，字号，背景色*/
+
 body {
 	font: "微软雅黑", "黑体";
 	font-size: 12px;
 	background: #212121;
 }
 
+
+/*a标签字号以及清除下划线*/
+
 a {
 	font-size: 12px;
 	text-decoration: none;
+	color: #666666;
 }
 
-ul,li{
+
+/*清除项目符号*/
+
+ul,
+li {
 	list-style: none;
 }
 
+
+/*清除浮动*/
+
 .clearfix:before,
-.clearfix:after{
-	content: " ",;
+.clearfix:after {
+	content: " ", ;
 	display: table;
 }
+
+
+/*赫拉作品里a链接设定*/
+
 .heraworks a:visited,
-.heraworks a:link{
-    text-decoration: none;
-    font-size: 12px;
-    color: #666666;
+.heraworks a:link {
+	text-decoration: none;
+	font-size: 12px;
+	color: #666666;
 }
 
-.tail{
+
+/*下方地址联系方式*/
+
+.tail {
 	background-image: url(http://www.jyhlyx.com/images/ying_r25_c4.jpg);
 	height: 142px;
 }
 
-
-.tail>img{
+.tail>img {
 	margin-left: 360px;
 }
 
-.bottom{
+.bottom {
 	width: 100%;
 	height: 90px;
 	background-image: url(http://www.jyhlyx.com/images/ying_r26_c4.jpg);
 }
 
-.bottom>p{
+.bottom>p {
 	color: #CBCBCB;
-    font-size: 14px;
-    line-height: 30px;
-    text-align: center;
+	font-size: 14px;
+	line-height: 30px;
+	text-align: center;
+}
+
+/*顶部*/
+
+.top {
+	width: 100%;
+	height: 30px;
+	background-image: url(http://www.jyhlyx.com/images/ying_r1_c2.jpg);
+	border-bottom: 1px solid white;
+	position: relative;
+	text-align: center;
+}
+
+.top-content {
+	width: 1200px;
+	height: 30px;
+	display: inline-block;
+}
+
+.top>.top-content>.fl {
+	color: white;
+	font-weight: bold;
+	line-height: 30px;
+}
+
+.top>.top-content>.fr {
+	color: white;
+	font-weight: bold;
+	line-height: 30px;
+}
+
+/*导航栏*/
+
+.header {
+	text-align: center;
+	height: 129px;
+	background: #FFFFFF;
+}
+
+.header>img {
+	width: 1200px;
+	height: 115px;
+	margin-top: 7px;
+	margin-bottom: 7px;
+}
+
+/*flash动画*/
+
+.flash {
+	width: 100%;
+	height: 600px;
+	border: 0;
+	padding: 0;
+	margin: 0;
+}
+
+/*flash动画下的口号*/
+
+.bg {
+	width: 100%;
+	height: 98px;
+	background: #151515;
+	text-align: -webkit-center;
+}
+
+.bg>img {
+	width: 506px;
+	height: 98px;
 }

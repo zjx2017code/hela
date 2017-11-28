@@ -1,56 +1,15 @@
-.top {
-	width: 100%;
-	height: 30px;
-	background-image: url(http://www.jyhlyx.com/images/ying_r1_c2.jpg);
-	border-bottom: 1px solid white;
+/*内容全局设定*/
+
+.content {
 	position: relative;
 }
 
-.top>.fl {
-	color: white;
-	font-weight: bold;
-	margin-left: 360px;
-	line-height: 30px;
-}
-
-.top>.fr {
-	color: white;
-	font-weight: bold;
-	margin-right: 359px;
-	line-height: 30px;
-}
-
-.header {
-	text-align: center;
-	height: 129px;
-	background: #FFFFFF;
-}
-
-.header>img {
-	width: 1200px;
-	height: 115px;
-	margin-top: 7px;
-	margin-bottom: 7px;
-}
-
-.flash {
-	height: 600px;
-	border: 0;
-	padding: 0;
-	margin: 0;
-}
-
-.bg {
+.content>a>img {
 	width: 100%;
-	height: 98px;
-	background: #151515;
-	text-align: -webkit-center;
+	height: 414px;
 }
 
-.bg>img {
-	width: 506px;
-	height: 98px;
-}
+/*赫拉活动版面*/
 
 .hlhd {
 	height: 180px;
@@ -63,14 +22,7 @@
 	margin-bottom: 15px;
 }
 
-.content{
-	position: relative;
-}
-
-.content>a>img {
-	width: 100%;
-	height: 414px;
-}
+/*作品展示版面*/
 
 .zpzs {
 	margin: 0;
@@ -85,6 +37,8 @@
 	margin-top: 15px;
 }
 
+/*作品展示内照片设定*/
+
 .photos {
 	width: 100%;
 	height: 420px;
@@ -93,8 +47,7 @@
 .photos>ul {
 	width: 1200px;
 	height: 420px;
-	position: absolute;
-	right: 360px;
+	display: inline-block;
 }
 
 .photos>ul>li {
@@ -121,6 +74,8 @@
 	background-color: red
 }
 
+/*用客照晒幸福版面*/
+
 .ykzsxf {
 	height: 630px;
 	width: 100%;
@@ -131,6 +86,14 @@
 	margin-bottom: 15px;
 	margin-top: 15px;
 }
+
+/*用客照晒幸福照片展示，详细设置与上同，故设置photos*/
+
+.photos>ul>li>a {
+	position: relative;
+}
+
+/*出现备注姓名框*/
 
 .photos>ul>li>a>span {
 	display: block;
@@ -143,8 +106,10 @@
 	text-align: center;
 	font-weight: bold;
 	position: absolute;
-	top: 354px;
+	top: 349px;
 }
+
+/*客户评价版面*/
 
 .khpj {
 	height: 450px;
@@ -177,58 +142,68 @@
 	color: white;
 }
 
-.khpj>ul{
+.khpj>ul {
 	display: inline-block;
 	width: 1200px;
 	height: 248px;
-	text-align: center;
 }
 
-.khpj>ul>li{
+.khpj>ul>li {
 	float: left;
 	margin-bottom: 24px;
-    margin-left: 5px;
-    margin-right: 5px;
+	margin-left: 5px;
+	margin-right: 5px;
 }
 
-.hldt{
-	width: 100%;
+/*赫拉动态背景图*/
+
+.hldt {
+	width: 1920px;
 	height: 168px;
 	background-image: url(../img/hldt.jpg);
 	background-repeat: no-repeat;
-	margin-left: 10px;
+	background-position: center;
 }
 
-.text{
-	width: 100%;
-	height: 660px;
-	padding-top: 20px;
-}
-
-.text>ul{
+.hldt-td{
 	width: 1200px;
-	height: 680px;
-	margin-left: 360px;
+	height: ;
 }
 
-.text>ul>li{
+/*赫拉新闻资讯版面*/
+
+.text {
+	width: 100%;
+	height: 680px;
+	text-align: center;
+}
+
+.text>ul {
+	width: 1200px;
+	height: 658px;
+	padding-top: 22px;
+	display: inline-block;
+}
+
+.text>ul>li {
 	width: 565px;
 	height: 146px;
 	float: left;
-	margin: 7px 0;
+	margin: 7px 2px;
 	padding-right: 30px;
+	text-align: left;
 }
 
-.text>ul>li>a{
-	display:block; 
-	font-size:18px; 
-	font-weight:bold; 
-	color:#fff; 
+.text>ul>li>a {
+	display: block;
+	font-size: 18px;
+	font-weight: bold;
+	color: #fff;
 	width: 390px;
-	line-height:35px;
+	line-height: 35px;
 }
 
-.text>ul>li>.data{
+.text>ul>li>.data {
 	width: 390px;
 	height: 22px;
 	color: #cdcdcd;
@@ -236,10 +211,9 @@
 	line-height: 22px;
 }
 
-.text>ul>li>.text-content{
+.text>ul>li>.text-content {
 	width: 390px;
 	height: 75px;
 	color: #676767;
 	line-height: 25px;
 }
-
