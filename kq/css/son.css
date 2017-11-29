@@ -1,0 +1,53 @@
+.son{
+	height: 8504px;
+	width: 1198px;
+	border: 1px solid #d5d5d5;
+	margin: 15px auto;
+	border-radius: 5px 5px 5px 5px;
+	text-align: center;
+	color: #666666;;
+}
+.son>h1{
+    border-bottom: 1px dashed #CCCCCC;
+    color: #333;
+    font-family: "宋体";
+    font-size: 18px;
+    line-height: 40px;
+    padding: 10px 0 10px;
+    margin: 0 8px 10px;
+    text-align: center;
+}
+.son>.text-top{
+	width: 1182px;
+	height: 22px;
+	margin-bottom: 20px;
+}
+.span-text-top{
+	margin-right: -5pxpx;
+}
+.img-son{
+	height: 6932px;
+	width: 1182px;
+	display: inline-block;
+}
+.img-son img{
+	margin:-2px ;
+}
+.text-bottom{
+	width: 300px;
+    float: left;
+    margin: 20px 0 20px 24px;
+}
+
+.son2{
+	height: 8980px;
+}
+.son3{
+	height: 7773px;
+}
+.son4{
+	height: 10000px;
+}
+.son5{
+	height:9000px
+}

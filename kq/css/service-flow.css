@@ -1,0 +1,30 @@
+.service-flow{
+	width: 1200px;
+	height: 1131px;
+	border: 1px solid #d5d5d5;
+	margin: 15px auto;
+	border-radius: 5px 5px 5px 5px;
+    text-align: center;
+}
+
+.service-flow>h1{
+    font-size: 24px;
+    margin: 10px auto;
+    color: #666666;
+}
+
+.service-flow>div{
+}
+.service-flow p{
+	text-align:left;
+	font-size: 16px;
+	color: #666666;
+	padding:  0 15px;
+	line-height: 32px;
+}
+.text-service-flow{
+	font-weight: bold;
+}
+.blank-service-flow{
+	height: 32px;
+}

@@ -1,0 +1,54 @@
+.child1{
+	height: 7100px;
+	width: 1198px;
+	border: 1px solid #d5d5d5;
+	margin: 15px auto;
+	border-radius: 5px 5px 5px 5px;
+	text-align: center;
+	color: #666666;;
+}
+.child1>h1{
+    border-bottom: 1px dashed #CCCCCC;
+    color: #333;
+    font-family: "宋体";
+    font-size: 18px;
+    line-height: 40px;
+    padding: 10px 0 10px;
+    margin: 0 8px 10px;
+    text-align: center;
+}
+.child1>.text-top{
+	width: 1182px;
+	height: 22px;
+	margin-bottom: 20px;
+}
+.span1-text{
+	margin-right: -5pxpx;
+}
+.img-child{
+	height: 6932px;
+	width: 1182px;
+	display: inline-block;
+}
+.img-child img{
+	margin:-2px ;
+}
+.text-bottom{
+	width: 200px;
+	float: left;
+	margin: 20px 34px;
+	
+}
+/*child2*/
+.child2{
+	height: 10830px;
+}
+.child3{
+	height: 7822px;
+}
+.child4{
+	height: 7920px;
+}
+.child5{
+	height: 10030px;
+}

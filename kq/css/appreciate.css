@@ -1,0 +1,33 @@
+.dashed{
+    margin: 15px 8px 26px 8px;
+    border-bottom: 1px dashed #d5d5d5;
+}
+.app{
+	height: 1490px;
+	width: 1198px;
+	border: 1px solid #d5d5d5;
+	margin: 15px auto;
+	border-radius: 5px 5px 5px 5px;
+}
+.app>.photo-appreciate{
+	float: left;
+	width: 284px;
+	height: 470px;
+	margin-left: 15px;
+}
+.photo-appreciate img{
+	width: 269px;
+	height: 430px;
+}
+.photo-appreciate p{
+	width:269px;
+	text-align: center;
+}
+.photo-appreciate p:hover{
+	color: #FF8B49;
+    text-decoration: underline;	
+}
+/*第二页*/
+.photo-appreciate{
+	height: 1022px;
+}

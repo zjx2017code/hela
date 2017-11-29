@@ -1,0 +1,80 @@
+.content {
+	height: 4800px;
+	width: 100%;
+	background-color: white;
+	text-align: center;
+	position: relative;
+}
+
+.content>.loc {
+	margin-top: 10px;
+	height: 34px;
+	width: 1198px;
+	border: 1px solid #CCCCCC;
+	border-radius: 3px;
+	display: inline-block;
+	position: absolute;
+	right: 345px;
+}
+
+.content>.loc>p {
+	color: #666666;
+	line-height: 34px;
+	padding-left: 10px;
+}
+
+.new-i {
+	width: 1118px;
+	height: 4704px;
+	border: 1px solid #CCCCCC;
+	border-radius: 3px;
+	position: absolute;
+	top: 56px;
+	right: 345px;
+	padding: 12px 40px 16px 40px;
+}
+
+.new-i>h1 {
+	border-bottom: 1px dashed #CCCCCC;
+	color: #333;
+	font-family: "宋体";
+	font-size: 18px;
+	line-height: 40px;
+	padding-bottom: 10px;
+	margin-bottom: 10px;
+	text-align: center;
+}
+
+a:hover {
+	text-decoration: underline;
+	color: orange;
+}
+
+.new-i>.new-loc>span {
+	color: #666666;
+	line-height: 22px;
+}
+
+.new-i>.text>p {
+	text-align: center;
+	width: 1098px;
+	height: 56px;
+	line-height: 28px;
+	color: #666666;
+	font-size: 14px;
+	padding-left: 10px;
+	padding-top: 15px;
+}
+
+.new-i>div>img{
+	margin-bottom: 18px;
+}
+
+.margin {
+	margin-bottom: 20px;
+}
+
+.find>span {
+	float: left;
+	color: #666666;
+}

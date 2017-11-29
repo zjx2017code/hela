@@ -99,6 +99,7 @@ li {
 
 .tail>img {
 	margin-left: 360px;
+	height: 142px;
 }
 
 .bottom {
@@ -180,4 +181,64 @@ li {
 .bg>img {
 	width: 506px;
 	height: 98px;
+}
+/*第一个边框*/
+.heraworks{
+	background-color: white;
+	float:left;
+	width: 100%;
+}
+.blank{
+	height: 10px;
+}
+.place {
+	height: 36px;
+	width: 1200px;
+    background-color: #fff;
+    border: 1px solid #d5d5d5;
+    margin: 2px auto;
+    border-radius: 5px 5px 5px 5px;
+}
+.place2{
+	padding: 9px ;
+}
+/*第一个边框中的超链接*/
+.heraworks a:visited,
+.heraworks a:link{
+    text-decoration: none;
+    font-size: 12px;
+    color: #666666;
+}
+.heraworks a:hover{
+    font-size: 12px;
+    color: #FF8B49;
+    text-decoration: underline;
+}
+
+/*页数边框*/
+.table-bot{
+	height: 27px;
+	width: 1172px;
+	background-color: #f9f9f9;
+	border: 1px solid #cccccc;
+	float: left;
+	overflow: hidden;
+	text-align: right;
+	line-height: 25px;
+	margin: 0 8px 0 8px;
+	padding-right: 8px;
+}
+
+.apage{
+    border: 1px solid #d4e3e9;
+    padding: 0 3px;
+    margin-right: 5px;
+}
+/*bot－空白*/
+.border-last{
+	width: 1199px;
+	height: 30px;
+	border: 1px solid #CCCCCC;
+	margin: -16px auto 11px;
+	border-radius: 5px 5px 5px 5px;
 }
